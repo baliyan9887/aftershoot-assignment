@@ -38,7 +38,7 @@ function Task({ task }) {
         </div>
       ) : (
         <span onDoubleClick={() => setIsEditing(true)}>
-          {task.text} {task.priority}
+          {task.text} ({task.priority})
         </span>
       )}
 
